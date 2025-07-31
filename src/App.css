@@ -1,0 +1,148 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Monuments !important";
+
+}
+@font-face {
+  font-family: 'Monuments';
+  src: url('/src/app/assets/fonts/Monument.otf') ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-color: #000 !important;
+  font-family: "Monuments !important";
+
+}
+.banner-text {
+  font-weight: 600 !important;
+  background: linear-gradient(to right, #0EA5EA, #0CC7D7, #0BD1D1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.25 !important;
+  /* This property ensures text color is transparent so the gradient shows through */
+  animation: effect 2s linear infinite;
+}
+
+.css-ka7ti6-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-endAdornment{
+  display: flex !important;
+}
+.css-ka7ti6-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-endAdornment:hover{
+  display: flex !important;
+}
+.css-1glvl0p-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-clearIndicator{
+  display: none !important;
+}
+.css-1glvl0p-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-clearIndicator:hover{
+  display: none !important;
+}
+.jobautocomplete .css-1glvl0p-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-clearIndicator{
+  display: block !important;
+}
+.jobautocomplete .css-1glvl0p-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-clearIndicator:hover{
+  display: block !important;
+}
+@keyframes effect {
+  0% {
+    background-position: 0% 77%;
+  }
+
+  100% {
+    background-position: 100% 77%;
+  }
+
+}
+
+.text-small {
+  font-size: 44px !important;
+  font-weight: 600 !important;
+}
+
+
+
+.swiper-slide {
+  padding: 10px !important;
+}
+
+
+
+.divider {
+  display: flex;
+  height: 1px;
+  width: 85%;
+  background: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, rgb(224, 225, 226) 49.52%, rgba(224, 225, 226, 0) 100%);
+  margin: 0 auto !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F7FAFC;
+  box-shadow: inset 0 0 5px #40bbff;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#40bbff;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #40bbff;
+}
+.MuiTableBody-root .MuiTableRow-root:hover .MuiTableCell-root {
+  color: #40bbff;
+  cursor: pointer;
+  border-bottom: 1px solid #40bbff;
+}
+
+@media screen and (max-width: 1130px) {
+  .bgImage {
+    /* width: 600px !important; */
+  }
+}
+
+
+/* .slider-section .wheel {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 2000px;
+  max-height: 2000px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider-section .wheel__card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6%;
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+}
+ */
+
+ @keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
